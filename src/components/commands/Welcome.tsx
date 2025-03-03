@@ -15,12 +15,19 @@ const Welcome: React.FC = () => {
       <div className="info-section">
         <PreName>
           {`        
-    _____       __     _   __      _            
-   / ___/____ _/ /_   / | / /___ _(_)___  ____ _
-   \\__ \\/ __ \`/ __/  /  |/ / __ \`/ / __  / __ \`/
-  ___/ / /_/ / /_   / /|  / /_/ / / / / / /_/ / 
- /____/\\__,_/\\___/ /_/ |_/\\__,_/_/_/ /_/\\__, /  
-                                       /____/   
+
+   /$ /$                                     /$$   /$$                                    /$$                    
+  |_/|_/                                    | $$  /$$/                                   | $$                    
+  /$$$$$$  /$$$$$$/$$$$   /$$$$$$   /$$$$$$ | $$ /$$/   /$$$$$$   /$$$$$$  /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$ 
+ /$$__  $$| $$_  $$_  $$ /$$__  $$ /$$__  $$| $$$$$/   |____  $$ /$$__  $$|____  $$ /$$__  $$ |____  $$ /$$__  $$
+| $$  \\ $$| $$ \\ $$ \\ $$| $$$$$$$$| $$  \\__/| $$  $$    /$$$$$$$| $$  \\__/ /$$$$$$$| $$  | $$  /$$$$$$$| $$  \\ $$
+| $$  | $$| $$ | $$ | $$| $$_____/| $$      | $$\\  $$  /$$__  $$| $$      /$$__  $$| $$  | $$ /$$__  $$| $$  | $$
+|  $$$$$$/| $$ | $$ | $$|  $$$$$$$| $$      | $$ \\  $$|  $$$$$$$| $$     |  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$
+ \\______/ |__/ |__/ |__/ \\_______/|__/      |__/  \\__/\\_______/|__/      \\_______/ \\_______/ \\_______/ \\____  $$
+                                                                                                        /$$  \\ $$
+                                                                                                       |  $$$$$$/
+                                                                                                        \\______/ 
+
           `}
         </PreName>
         <PreWrapper>
@@ -39,11 +46,11 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
+        <div>Welcome to my command line portfolio.</div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
+          <Link href="https://github.com/krdgomer/cli-portfolio">
             GitHub repo
           </Link>
           .
@@ -53,29 +60,7 @@ const Welcome: React.FC = () => {
           For a list of available commands, type `<Cmd>help</Cmd>`.
         </div>
       </div>
-      <div className="illu-section">
-        <PreImg>
-          {`
-                       ,##,,eew,
-                     ,##############C
-                  a###############@##
-                 7####^\`^"7W7^"@####
-                 @#@b\`         ^@#@^
-                  ##^,,,,   ,,,,^#^
-                 ,,@######"#######=
-                  .''555"\` '5555b|
-                  T"@  ,,,^,mg,@,*
-                     %p||\`~~'.#\`
-                      ^Wp  ,#T
-                     :b''@@b^}
-                  ,^     \` 'b 3-
-              .<\` 'p   ^v   #   b   *.
-            {      }   #"GpGb   [
-            C      3 * @#######Nl      \`
-           '            ^@##b     ($    !
-         `}
-        </PreImg>
-      </div>
+      <div className="illu-section"></div>
     </HeroContainer>
   );
 };
