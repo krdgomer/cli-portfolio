@@ -268,16 +268,20 @@ function print() { __p += __j.call(arguments, '') }
                                                                                                         \\______/ 
 
           `}),M.jsx(LT,{children:M.jsx(OT,{children:`
-    ____     __          
-   / __/__ _/ /_         
-  _\\ \\/ _ \`/ __/         
- /___/\\_,_/\\__/          
-    _  __     _          
-   / |/ /__ _(_)__  ___ _
-  /    / _ \`/ / _ \\/ _ \`/
- /_/|_/\\_,_/_/_//_/\\_, / 
-                  /___/  
- 
+            
+
+            _   _                                 
+            (_)_(_)_ __ ___   ___ _ __             
+             / _ \\| '_ \` _ \\ / _ \\ '__|            
+            | |_| | | | | | |  __/ |               
+             \\___/|_| |_| |_|\\___|_| _             
+            | |/ /__ _ _ __ __ _  __| | __ _  __ _ 
+            | ' // _\` | '__/ _\` |/ _\` |/ _\` |/ _\` |
+            | . \\ (_| | | | (_| | (_| | (_| | (_| |
+            |_|\\_\\__,_|_|  \\__,_|\\__,_|\\__,_|\\__, |
+                                             |___/ 
+           
+
           `})}),M.jsx("div",{children:"Welcome to my command line portfolio."}),M.jsx(im,{children:"----"}),M.jsxs("div",{children:["This project's source code can be found in this project's"," ",M.jsx(zT,{href:"https://github.com/krdgomer/cli-portfolio",children:"GitHub repo"}),"."]}),M.jsx(im,{children:"----"}),M.jsxs("div",{children:["For a list of available commands, type `",M.jsx(NT,{children:"help"}),"`."]})]}),M.jsx("div",{className:"illu-section"})]}),FT=()=>{const{history:e,index:n}=le.useContext(Kr),r=Te.reverse(Te.slice(e,n));return M.jsx(dl,{"data-testid":"history",children:r.map(l=>M.jsx("div",{children:l},Te.uniqueId(`${l}_`)))})};ge.div`
   margin-top: 0.5rem;
   margin-bottom: 0.875rem;
