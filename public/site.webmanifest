@@ -1,7 +1,7 @@
 {
-  "name": "Terminal Portfolio by SN",
+  "name": "cLI Portfolio",
   "short_name": "Terminal",
-  "description": "Sat Naing's terminal portfolio website coded with ReactJS.",
+  "description": "Terminal portfolio website coded with ReactJS.",
   "start_url": "/cli-portfolio/",
   "icons": [
     {
