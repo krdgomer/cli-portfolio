@@ -12,4 +12,5 @@ export default defineConfig({
       registerType: "autoUpdate",
     }),
   ],
+  base: "/cli-portfolio",
 });
